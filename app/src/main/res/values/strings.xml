@@ -7,6 +7,7 @@
     <string name="next">Get Started</string>
     <string name="previous">Go Back</string>
     <string name="title_card">Bendy Buddy</string>
+    <string name="camera_text">Placeholder for camera view</string>
 
     <string name="hello_first_fragment">Welcome to Bendy Buddy, your helpful tool for all your yoga needs!</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
