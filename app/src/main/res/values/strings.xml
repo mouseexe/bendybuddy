@@ -13,4 +13,11 @@
 
     <string name="hello_first_fragment">Welcome to Bendy Buddy, your helpful tool for all your yoga needs!</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text_with_paragraphs">
+           Mountain Pose — Tadasana (tah-DAHS-uh-nuh) — is an active pose that helps improve posture, balance, and calm focus.
+         \nIts name comes from the Sanskrit words "tada" (meaning "mountain") and "asana" (meaning "pose").
+         \nTadasana is the foundational pose for all standing yoga postures and full inversions, such as Handstand and Headstand.
+         \nIt is the pose from which every other standing pose in your practice is born!
+    </string>
+
 </resources>
