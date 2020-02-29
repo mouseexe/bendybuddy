@@ -10,7 +10,7 @@ class page2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_page1)
+        setContentView(R.layout.activity_page2)
 
         fab3.setOnClickListener { view ->
             //Launch camera activity here
