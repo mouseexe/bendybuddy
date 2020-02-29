@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 import android.widget.Button
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_page1.*
 
 class page1 : AppCompatActivity() {
 
@@ -12,7 +12,7 @@ class page1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page1)
 
-        fab.setOnClickListener { view ->
+        fab2.setOnClickListener { view ->
             //Launch camera activity here
             val intent = Intent(this, CameraActivity::class.java)
             startActivity(intent)
