@@ -21,9 +21,6 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, CameraActivity::class.java)
             startActivity(intent)
-            //Old code below
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
         }
     }
 
