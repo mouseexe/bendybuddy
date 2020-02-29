@@ -1,5 +1,6 @@
 package space.bendybuddy.app
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -25,7 +26,10 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.button_first).setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            //Launch camera activity here
+            val intent = Intent(activity, page1::class.java)
+            startActivity(intent)
+            //findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
     }
 }

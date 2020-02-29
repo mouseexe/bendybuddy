@@ -2,11 +2,30 @@ package space.bendybuddy.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.content.Intent
+import android.widget.Button
+import kotlinx.android.synthetic.main.activity_main.*
 
 class page1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page1)
+
+        fab.setOnClickListener { view ->
+            //Launch camera activity here
+            val intent = Intent(this, CameraActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.button5).setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.button6).setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
