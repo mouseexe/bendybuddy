@@ -37,7 +37,7 @@
         android:layout_marginEnd="73dp"
         android:layout_marginBottom="102dp"
         android:ems="10"
-        android:text="Name"
+        android:text="@string/paragraphs_page2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -65,4 +65,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="277dp"
+        android:layout_height="0dp"
+        android:text="Wall Plank"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="420dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
